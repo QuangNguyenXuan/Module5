@@ -1,0 +1,14 @@
+{"intents": [
+  {"tag": "greet",
+    "patterns": ["howdy", "hullo", "hi", "hello", "how do you do"],
+    "responses": ["'Hello! How can I help you?"],
+    "context_set": ""
+  },
+  {"tag": "timiming",
+    "patterns": [ "clock", "timing", "time"],
+    "responses": ["We are open from 9AM to 5PM, Monday to Friday. We are closed on weekends and public holidays"],
+    "context_set": ""
+  }
+]
+}
+
